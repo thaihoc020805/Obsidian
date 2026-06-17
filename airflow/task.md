@@ -1,0 +1,5 @@
+-  update phần validate của strategy (cả noti, cả job_type, cả dp_handler)
+-  push code :))
+-  update phần spark scala
+-  xóa bớt code
+- 

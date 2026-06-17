@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"5aa3aaebf840f4b4","type":"text","text":"```mermaid\nflowchart LR\n    subgraph \"Your Computer\"\n        Host[\"Host with MCP VScode, IDEs, Tools)\"]\n        S1[\"MCP Server A\"]\n        S2[\"MCP Server B\"]\n        S3[\"MCP Server C\"]\n        Host <-->|\"MCP Protocol\"| S1\n        Host <-->|\"MCP Protocol\"| S2\n        Host <-->|\"MCP Protocol\"| S3\n        S1 <--> D1[(\"Local\\Data Source A\")]\n        S2 <--> D2[(\"Local\\Data Source B\")]\n    end\n    subgraph \"Internet\"\n        S3 <-->|\"Web APIs\"| D3[(\"Remote\\Services\")]\n    end\n```","x":-320,"y":-120,"width":1000,"height":600}
+	],
+	"edges":[]
+}
