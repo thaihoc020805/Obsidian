@@ -7,6 +7,22 @@
       "key": "L"
     }
   ],
+  "highlightr-plugin:unhighlight": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Q"
+    }
+  ],
+  "highlightr-plugin:Green": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    }
+  ],
   "highlightr-plugin:Yellow": [
     {
       "modifiers": [
@@ -15,28 +31,12 @@
       "key": "A"
     }
   ],
-  "highlightr-plugin:Green": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Q"
-    }
-  ],
   "highlightr-plugin:Red": [
     {
       "modifiers": [
         "Alt"
       ],
-      "key": "W"
-    }
-  ],
-  "highlightr-plugin:unhighlight": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "S"
+      "key": "D"
     }
   ]
 }
