@@ -168,3 +168,80 @@ sudo cp /etc/kubernetes/admin.conf "$HOME/.kube/config"
 
 sudo chown "$(id -u):$(id -g)" "$HOME/.kube/config"
 ```
+
+```bash
+kubectl create -f \
+  https://raw.githubusercontent.com/projectcalico/calico/v3.32.0/manifests/v1_crd_projectcalico_org.yaml
+```
+
+```bash
+kubectl create -f \
+  https://raw.githubusercontent.com/projectcalico/calico/v3.32.0/manifests/tigera-operator.yaml
+```
+
+```bash
+curl -LO \
+  https://raw.githubusercontent.com/projectcalico/calico/v3.32.0/manifests/custom-resources.yaml
+  
+grep -A8 'ipPools:' custom-resources.yaml
+```
+
+phải có cidr: 192.168.0.0/16
+
+```bash
+kubectl create -f custom-resources.yaml
+```
+
+
+```bash
+watch kubectl get tigerastatus
+
+until:
+
+Every 2.0s: kubectl get tigerastatus       fdp-k8s-cp1: Tue Jun 23 22:47:49 2026
+
+NAME        AVAILABLE   PROGRESSING   DEGRADED   SINCE   MESSAGE
+apiserver   True        False         False      2m8s    All objects available
+calico      True        False         False      103s    All objects available
+goldmane    True        False         False      2m3s    All objects available
+ippools     True        False         False      3m19s   All objects available
+tiers       True        False         False      2m3s    All objects available
+whisker     True        False         False      83s     All objects available
+```
+
+```bash
+kubectl get pods -A -o wide
+kubectl get nodes -o wide
+```
+
+control plane phải thành ready
+
+Trên `fdp-k8s-wk[1-3]` 
+
+```bash
+sudo kubeadm join k8s-api:6443 \
+  --token dnhey2.16b8iqaxvxru1jwk \
+  --discovery-token-ca-cert-hash sha256:e2a24ca01f7e7dba40dbfc15963561646dc5a11ae105d4d628779658ba66dcf9 \
+  --cri-socket=unix:///run/containerd/containerd.sock
+```
+
+
+Trên `fdp-k8s-cp1`:
+```bash
+kubectl label node fdp-k8s-wk1 node-role.kubernetes.io/worker=worker
+kubectl label node fdp-k8s-wk2 node-role.kubernetes.io/worker=worker
+kubectl label node fdp-k8s-wk3 node-role.kubernetes.io/worker=worker
+```
+
+```bash
+kubectl get nodes -o wide
+
+NAME          STATUS   ROLES           AGE     VERSION   INTERNAL-IP     EXTERNAL-IP   OS-IMAGE             KERNEL-VERSION             CONTAINER-RUNTIME
+fdp-k8s-cp1   Ready    control-plane   16m     v1.36.2   172.21.92.163   <none>        Ubuntu 24.04.4 LTS   6.8.0-58-generic (amd64)   containerd://2.2.5
+fdp-k8s-wk1   Ready    worker          3m11s   v1.36.2   172.21.92.175   <none>        Ubuntu 24.04.4 LTS   6.8.0-58-generic (amd64)   containerd://2.2.5
+fdp-k8s-wk2   Ready    worker          2m58s   v1.36.2   172.21.92.123   <none>        Ubuntu 24.04.4 LTS   6.8.0-58-generic (amd64)   containerd://2.2.5
+fdp-k8s-wk3   Ready    worker          2m42s   v1.36.2   172.21.92.157   <none>        Ubuntu 24.04.4 LTS   6.8.0-58-generic (amd64)   containerd://2.2.5
+```
+
+
+kubeconfig lưu ở: /etc/kubernetes/admin.conf
