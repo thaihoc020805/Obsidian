@@ -68,9 +68,103 @@ sudo apt-get install -y containerd.io
 ```
 
 ```bash
-sudo mkdir -p /etc/containerd
-
 containerd config default |
   sudo tee /etc/containerd/config.toml >/dev/null
+  
+sudo sed -i \
+  's/SystemdCgroup = false/SystemdCgroup = true/' \
+  /etc/containerd/config.toml
 ```
 
+```bash
+sudo systemctl restart containerd
+sudo systemctl enable containerd
+```
+
+```bash
+sudo apt-get install -y apt-transport-https ca-certificates curl gpg
+
+sudo mkdir -p -m 755 /etc/apt/keyrings
+
+```
+
+```bash
+curl -fsSL https://pkgs.k8s.io/core:/stable:/v1.36/deb/Release.key |
+  sudo gpg --dearmor --yes \
+    -o /etc/apt/keyrings/kubernetes-apt-keyring.gpg
+```
+
+```bash
+echo 'deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] https://pkgs.k8s.io/core:/stable:/v1.36/deb/ /' |
+  sudo tee /etc/apt/sources.list.d/kubernetes.list >/dev/null
+```
+
+
+```bash
+sudo apt-get update
+sudo apt-get install -y kubelet kubeadm kubectl
+
+sudo apt-mark hold kubelet kubeadm kubectl
+
+sudo systemctl enable --now kubelet
+```
+
+```bash
+kubeadm version
+kubectl version --client
+kubelet --version
+```
+
+## Trên `fdp-k8s-cp1` 
+```bash
+echo 'KUBELET_EXTRA_ARGS=--node-ip=172.21.92.163' |
+  sudo tee /etc/default/kubelet
+```
+
+## Trên `fdp-k8s-wk1`
+
+```bash
+echo 'KUBELET_EXTRA_ARGS=--node-ip=172.21.92.175' |
+  sudo tee /etc/default/kubelet
+```
+
+## Trên `fdp-k8s-wk2`
+
+```bash
+echo 'KUBELET_EXTRA_ARGS=--node-ip=172.21.92.123' |
+  sudo tee /etc/default/kubelet
+```
+
+## Trên `fdp-k8s-wk3`
+
+```bash
+echo 'KUBELET_EXTRA_ARGS=--node-ip=172.21.92.157' |
+  sudo tee /etc/default/kubelet
+```
+
+```bash
+sudo systemctl restart kubelet
+```
+
+## Trên `fdp-k8s-cp1` 
+```bash
+sudo kubeadm config images pull \
+  --cri-socket=unix:///run/containerd/containerd.sock
+```
+
+```bash
+sudo kubeadm init \
+  --apiserver-advertise-address=172.21.92.163 \
+  --control-plane-endpoint=k8s-api:6443 \
+  --pod-network-cidr=192.168.0.0/16 \
+  --cri-socket=unix:///run/containerd/containerd.sock \
+  --node-name=fdp-k8s-cp1
+```
+
+```bash
+mkdir -p "$HOME/.kube"
+
+sudo cp /etc/kubernetes/admin.conf "$HOME/.kube/config"
+
+sudo chown "$(id -u):$(id -g)" "$HOME/.kube/config"
+```
