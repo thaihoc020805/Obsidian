@@ -245,3 +245,41 @@ fdp-k8s-wk3   Ready    worker          2m42s   v1.36.2   172.21.92.157   <none> 
 
 
 kubeconfig lưu ở: /etc/kubernetes/admin.conf
+
+cài thêm metric server
+```bash
+kubectl apply -f \
+  https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.8.1/components.yaml
+```
+
+```bash
+kubectl patch deployment metrics-server \
+  -n kube-system \
+  --type=json \
+  -p='[
+    {
+      "op": "add",
+      "path": "/spec/template/spec/containers/0/args/-",
+      "value": "--kubelet-insecure-tls"
+    }
+  ]'
+```
+
+```
+kubectl top nodes
+kubectl top pods -A --sort-by=cpu
+kubectl top pods -A --sort-by=memory
+```
+
+
+khi muốn **bảo trì một node an toàn**, ví dụ reboot, nâng CPU/RAM, cập nhật kernel, thay ổ đĩa.
+
+```bash
+kubectl drain fdp-k8s-wk1 \
+  --ignore-daemonsets \
+  --delete-emptydir-data
+```
+
+```bash
+kubectl uncordon fdp-k8s-wk1
+```
