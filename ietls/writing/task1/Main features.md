@@ -40,8 +40,9 @@ brown <mark style="background: #BBFABBA6;">rocketed</mark> to $45000 in april, t
 
 Orange <mark style="background: #BBFABBA6;">exhibited a plunge</mark> to $30000 in June, <mark style="background: #BBFABBA6;">prior to a slower decline to</mark> ...
 
-Example
-![[Pasted image 20260618114219.png|522]]
+Example:
+
+![[Pasted image 20260618114219.png|706]]
 
 
 Cách chọn main feature
@@ -112,3 +113,8 @@ and then <mark style="background: #BBFABBA6;">witnessed a more significant rise<
 <mark style="background: #FF5582A6;">Nếu có quá nhiều main feature xuất hiện ? 
 thứ tự xuất hiện của các main feature trong video này là thứ tự quan trong nhất đến thấp hơn
 hãy dựa theo để chọn viết những cái nào quan trọng nhất</mark>
+
+
+other:
+
+![[Pasted image 20260624104035.png|913]]![[Pasted image 20260624104044.png|914]]

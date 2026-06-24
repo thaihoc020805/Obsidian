@@ -265,7 +265,7 @@ kubectl patch deployment metrics-server \
   ]'
 ```
 
-```
+```bash
 kubectl top nodes
 kubectl top pods -A --sort-by=cpu
 kubectl top pods -A --sort-by=memory
