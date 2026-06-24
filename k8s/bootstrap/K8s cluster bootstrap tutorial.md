@@ -1,5 +1,6 @@
 
-in all node
+## Trên `tất cả các node`:
+
 ```bash
 sudo tee -a /etc/hosts >/dev/null <<'EOF'
 
@@ -196,7 +197,7 @@ kubectl create -f custom-resources.yaml
 ```bash
 watch kubectl get tigerastatus
 
-until:
+result:
 
 Every 2.0s: kubectl get tigerastatus       fdp-k8s-cp1: Tue Jun 23 22:47:49 2026
 
@@ -216,7 +217,7 @@ kubectl get nodes -o wide
 
 control plane phải thành ready
 
-Trên `fdp-k8s-wk[1-3]` 
+Trên `fdp-k8s-wk[1-3]` :
 
 ```bash
 sudo kubeadm join k8s-api:6443 \
