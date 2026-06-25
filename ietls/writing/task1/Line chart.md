@@ -64,8 +64,9 @@ tăng, giảm
 body1: giảm
 body2: tăng
 
-Exports to Japan began the period at approximately 27%, before plunging to precisely one-fifth in the following five years. Subsequently, it declined at relatively lower rate  to roughly 17% by 2012
+Exports to Japan began the period at approximately 27%, before plunging to precisely one-fifth in the following five years. Subsequently, it declined at a relatively lower rate  to roughly 17% by 2012
 
+**by + mốc thời gian** thường được dùng khi nói giá trị đã đạt đến một mức nào đó sau một quá trình thay đổi
 
 
 
