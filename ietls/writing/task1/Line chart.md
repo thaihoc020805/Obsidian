@@ -56,10 +56,15 @@ Category, Trend, High/Low, Time
 
 Category: từ 3 cate trở xuống và mỗi đoạn sẽ nhét vào 1 cate
 Trend: có từ 2 xu hướng trở lên, các xu hướng khác nhau rõ rệt (chứ mấy bài chỉ có 1 xu hướng, như tất cả các đường đều tăng/ giảm thì thôi)
-HIgh/Low: 
+HIgh/Low: dùng khi 2 cách trên ko khả dụng
 Time: hạn chế chia theo time nhất là mấy bài time nó trải dài 
 
+bài trên chọn trend
+tăng, giảm
+body1: giảm
+body2: tăng
 
+Exports to Japan began the period at approximately 27%, before plunging to precisely one-fifth in the following five years. Subsequently, it declined at relatively lower rate  to roughly 17% by 2012
 
 
 

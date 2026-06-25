@@ -102,6 +102,8 @@ a quarter = 1/4
 two fifths = 2/5
 three quarters = 3/4
 
+one-fifth = a fifth
+
 Tăng tốc
 and then <mark style="background: #BBFABBA6;">witnessed a more significant rise</mark> from 1985
 
