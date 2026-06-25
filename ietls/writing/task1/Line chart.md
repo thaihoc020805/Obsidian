@@ -26,6 +26,7 @@ the highest/ the lowest
 the fastest 
 
 chỉ cần quan tâm đến điểm đầu, điểm cuối 
+
 trends 
 the export percentages to Japan and the US decreased over the period
 
@@ -34,4 +35,37 @@ repeat the previous =>
 the export percentages => those 
 increased => witnessed a reverse trend
 
-Overall, the export percentages to Japan and the US decreased over the period while those to China and India witnessed 
+Overall, the export percentages to Japan and the US decreased over the period, while those to China and India witnessed a reverse trend .
+
+the highest/ the lowest
+(tìm xem có thằng nào luôn luôn cao nhất hoặc luôn luôn thấp nhất ko ? , ở case này ko có )
+the fastest 
+tìm xem nước nào tăng hoặc giảm mạnh nhất trong thời kì
+thường tìm tăng mạnh
+
+Additionally, the figure for China showed the most significant growth.
+
+=> Overview:
+
+Overall, the export percentages to Japan and the US decreased over the period, while those to China and India witnessed a reverse trend. Additionally, the figure for China showed the most significant growth.
+
+Body
+
+Line chart có 1 số cách chia đoạn:
+Category, Trend, High/Low, Time 
+
+Category: từ 3 cate trở xuống và mỗi đoạn sẽ nhét vào 1 cate
+Trend: có từ 2 xu hướng trở lên, các xu hướng khác nhau rõ rệt (chứ mấy bài chỉ có 1 xu hướng, như tất cả các đường đều tăng/ giảm thì thôi)
+HIgh/Low: 
+Time: hạn chế chia theo time nhất là mấy bài time nó trải dài 
+
+
+
+
+
+
+
+
+
+
+
