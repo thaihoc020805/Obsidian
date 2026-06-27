@@ -5,7 +5,7 @@ red <mark style="background: #BBFABBA6;">started at </mark>40%
 Which then<mark style="background: #BBFABBA6;"> reached a peak of </mark>85% in 1990
 
 <mark style="background: #FF5582A6;">Đáy</mark>
-<mark style="background: #BBFABBA6;">followed by a low of </mark>20% in 1995
+<mark style="background: #BBFABBA6;">followed by a low of </mark>20% in 1995 
 
 <mark style="background: #FF5582A6;">Điểm kết thúc</mark>
 and <mark style="background: #BBFABBA6;">finished at </mark>55%
