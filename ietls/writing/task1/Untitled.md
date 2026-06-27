@@ -1,4 +1,4 @@
-# 1. at + số liệu cụ thể (điểm, giá trị)
+# at + số liệu cụ thể (điểm, giá trị)
 
 Dùng sau các động từ chỉ **ở mức bao nhiêu**.
 
@@ -36,7 +36,7 @@ Dùng sau các động từ chỉ **ở mức bao nhiêu**.
 
 ---
 
-# 2. to + giá trị sau khi thay đổi
+#  to + giá trị sau khi thay đổi
 
 Sau increase, rise, climb,...
 
@@ -60,7 +60,7 @@ từ đâu → **đến** đâu
 
 ---
 
-# 3. by + lượng thay đổi
+#  by + lượng thay đổi
 
 Không phải điểm đến.
 
@@ -93,3 +93,65 @@ Sales rose **to 30%**.
 (nghĩa là đạt 30%)
 
 Khác hoàn toàn.
+
+
+## **of 10%** = đi sau **danh từ chỉ mức thay đổi**
+
+<mark style="background: #FF5582A6;">Không dùng với động từ trực tiếp.</mark>
+
+Đúng:
+
+> There was **an increase of 10%**.  
+> = Có một mức tăng 10%.
+
+> It saw **a fall of 10 percentage points**.  
+> = Nó có mức giảm 10 điểm phần trăm.
+
+> The figure experienced **a rise of 10%**.  
+> = Con số này trải qua mức tăng 10%.
+
+Sai:
+
+> The figure increased **of 10%**. ❌
+
+Đúng:
+
+> The figure increased **by 10%**. ✅  
+> There was an increase **of 10%**. ✅
+
+
+## **in + năm** = xảy ra **vào năm đó**
+
+> It reached 20% **in 2010**.  
+> = Nó đạt 20% **vào năm 2010**.
+
+Dùng khi bạn đang nói **mốc thời gian cụ thể**.
+
+---
+
+## **by + năm** = **đến năm đó / tính đến năm đó**
+
+> It had fallen to 10% **by 2010**.  
+> = Nó đã giảm xuống 10% **đến năm 2010**.
+
+**by** nhấn mạnh quá trình trước đó dẫn tới mốc đó.
+
+So sánh:
+
+> It rose to 30% **in 2010**.  
+> = Năm 2010 nó lên 30%.
+
+> It rose to 30% **by 2010**.  
+> = Đến năm 2010 thì nó đã lên 30%.
+
+
+
+
+
+
+for: dành cho/ đối với
+of: của , thuộc sở hữu, trong số
+of + owner : của/ thuộc về
+of + group : trong số 
+in: bên trong ,... 
+sales increased in the four countries
