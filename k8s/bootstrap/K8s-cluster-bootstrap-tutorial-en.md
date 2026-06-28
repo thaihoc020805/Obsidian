@@ -4,12 +4,12 @@ This tutorial creates a Kubernetes cluster with one control-plane node and three
 
 ## Cluster Overview
 
-| Role | Hostname | Internal IP | API alias |
-|---|---|---:|---|
+| Role          | Hostname      |     Internal IP | API alias |
+| ------------- | ------------- | --------------: | --------- |
 | Control plane | `fdp-k8s-cp1` | `172.21.92.163` | `k8s-api` |
-| Worker | `fdp-k8s-wk1` | `172.21.92.175` | — |
-| Worker | `fdp-k8s-wk2` | `172.21.92.123` | — |
-| Worker | `fdp-k8s-wk3` | `172.21.92.157` | — |
+| Worker        | `fdp-k8s-wk1` | `172.21.92.175` | —         |
+| Worker        | `fdp-k8s-wk2` | `172.21.92.123` | —         |
+| Worker        | `fdp-k8s-wk3` | `172.21.92.157` | —         |
 
 ## Software and Network Configuration
 
