@@ -75,6 +75,9 @@ body3
 
 The total amount of air pollutants plunged from nearly 8 million tonnes to roughly 4.5 million tonnes over the first six year
 
-This was followed by a more gradual decline to approximately 3.5 million tonnes by 2025
+This was followed by a more gradual decline to approximately 3.5 million tonnes by 2005
 
 gradual = từ từ
+
+- **in + năm** → tại/trong năm đó
+- **by + năm** → đến mốc năm đó
