@@ -38,3 +38,43 @@ the industrial sector consistently accounted for the highest emissions while hou
 chỉ cần nói nhanh nhất khi toàn bộ cate trong bài có cùng xu hướng giống nhau thôi => bài này ko cần 
 
 => The total amount of air pollutants followed a downward trend, which was mirrored by those of industry and households, whereas transport emissions remained fairly stable. Additionally, the industrial sector consistently accounted for the highest emissions while households released the lowest amount for the majority of the period.
+
+Body:
+Chia theo cao thấp
+
+Body1 Industry
+Body2 Transport + HouseHold
+Body3 Total
+
+Body1:
+At the beginning, industry produced 6 million tonnes of air pollutants
+The figure halved in 1996
+From this point, emissions fell more slowly.
+Emission ended the period at precisely 2 million tonnes
+
+Body2:
+Air pollutants from transport were generally the larger source compared with households
+Air pollutants from transport followed a broadly stable pattern 
+air pollutants from transport fluctuated minimally around 1 million tonnes throughout the period
+
+throughout = over
+broadly = nhìn chung
+
+As for households, an identical amount of pollutants from households was emitted from this source as was produced by transport in 1990
+
+pollutants subsequently fell by nearly 0.4 million tonnes in 1996.
+
+pollutants recovered briefly to approximately 0.7 million tonnes over the following three year
+
+**Briefly** = **một cách ngắn gọn / trong thời gian ngắn / thoáng qua**
+
+pollutants receded to about 0.2 million tonnes by the end
+**Receded** = **giảm xuống / lùi xuống / rút xuống**.
+
+body3
+
+The total amount of air pollutants plunged from nearly 8 million tonnes to roughly 4.5 million tonnes over the first six year
+
+This was followed by a more gradual decline to approximately 3.5 million tonnes by 2025
+
+gradual = từ từ
