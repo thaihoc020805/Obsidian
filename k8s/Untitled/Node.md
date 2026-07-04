@@ -2152,7 +2152,7 @@ node controller:
 ReplicaSet controller:
 - duy trì số replica
 
-taint manager:
+taint-eviction-controller:
 - xử lý Pod trên Node bị taint
 
 containerd:
@@ -2171,8 +2171,9 @@ Ví dụ `wk1` chết:
 Node controller:
 "wk1 unreachable."
 
-Taint manager:
+Taint eviction controller:
 "Pod trên wk1 đã hết thời gian tolerate."
+"Gọi API server để xóa/evict Pod"
 
 ReplicaSet controller:
 "Thiếu một replica."
