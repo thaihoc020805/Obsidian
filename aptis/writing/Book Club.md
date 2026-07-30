@@ -3,7 +3,7 @@ Hi Ngan,
 
 How are you doing? 
 
-Guess what? Our club is planning to hold a meeting for member of all ages. I feel really excited because it could bring members clo. I think we should giải pháp. This would lợi ích. What do you think? Perhaps we can discuss it over lunch.
+Guess what? Our club is planning to hold a meeting for member of all ages. I feel really excited because it could bring members closer together. I think we should invite well-known local writer to discuss how books connect generations. This would attract more people and appeal to both young and old members. What do you think? Perhaps we can discuss it over lunch.
 
 Catch you later,
 
