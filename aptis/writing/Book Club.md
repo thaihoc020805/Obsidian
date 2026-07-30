@@ -1,4 +1,17 @@
 
+Hi Ngan,
+
+How are you doing? 
+
+Guess what? Our club is planning to hold a meeting for member of all ages. I feel really excited because it could bring members clo. I think we should giải pháp. This would lợi ích. What do you think? Perhaps we can discuss it over lunch.
+
+Catch you later,
+
+Hoc
+
+
+
+
 
 Dear Manager,
 
