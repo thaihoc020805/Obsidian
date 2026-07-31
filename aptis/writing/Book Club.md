@@ -1,3 +1,5 @@
+Dear member, The club will hold a meeting. Who do you want to invite? What is the theme? Please give a suggestion for both young and old people.
+
 
 Hi Ngan,
 
