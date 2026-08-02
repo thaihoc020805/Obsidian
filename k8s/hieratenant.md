@@ -15,21 +15,13 @@ Kubernetes Namespace cung cấp một phạm vi cách ly cơ bản, nhưng:
 - **Bùng nổ Cluster**  
     Để có mức cách ly rõ ràng hơn, tổ chức thường tạo một Cluster cho mỗi nhóm, làm tăng mạnh chi phí vận hành.
 
-### Sơ đồ nên đặt trên slide
+# Vấn đề
 
-```
-Công ty ACME
+Kubernetes Namespace cung cấp một mức độ cách ly cơ bản, nhưng không có cấu trúc phân cấp. Khi nhiều nhóm hoặc khách hàng cùng sử dụng chung một cụm Kubernetes, tổ chức sẽ phải đối mặt với những lựa chọn khó khăn:
 
-Backend       Frontend       Data          AI
-├── dev       ├── dev        ├── dev       ├── dev
-├── test      ├── test       ├── test      ├── test
-└── prod      └── prod       └── prod      └── prod
-
-Kubernetes chỉ nhìn thấy một danh sách Namespace phẳng:
-backend-dev, backend-test, backend-prod, frontend-dev...
-```
-
-Kubernetes xác nhận Namespace không thể lồng vào nhau; mỗi tài nguyên chỉ thuộc một Namespace. Việc dùng chung Cluster giúp giảm chi phí nhưng đồng thời tạo ra các vấn đề về bảo mật, công bằng và noisy neighbor.
+- **Isolation is all-or-nothing** — Kubernetes không cung cấp sẵn cơ chế để gom các Namespace theo từng nhóm hoặc áp dụng chính sách nhất quán trên toàn bộ các Namespace của nhóm đó.
+- **Namespace sprawl** — Khi số lượng Namespace tăng lên, quản trị viên cụm trở thành điểm nghẽn vì phải tự tạo và cấu hình từng Namespace.
+- **Cluster sprawl** — Để đạt được mức cách ly phù hợp, các tổ chức thường triển khai một cụm Kubernetes riêng cho mỗi nhóm, làm gia tăng đáng kể chi phí tài nguyên và công sức vận hành.
 
 ## Lời nói
 
@@ -124,7 +116,7 @@ Shared Cluster phù hợp khi nhiều nhóm có Workload nhỏ và trung bình.
 
 ### **Chi phí bị nhân bản khi tách nhiều Cluster**
 
-### Mỗi nhóm một Cluster có tính sẵn sàng cao
+### Mỗi nhóm một Cluster có HA thì control plan tối thiểu phải có 3 máy
 
 ```
 10 nhóm × 3 máy Control Plane
@@ -132,40 +124,19 @@ Shared Cluster phù hợp khi nhiều nhóm có Workload nhỏ và trung bình.
 30 máy Control Plane
 ```
 
-Theo mức tối thiểu để minh họa:
-
-```
-30 × 2 vCPU  = 60 vCPU
-30 × 2 GiB   = 60 GiB RAM
-```
-
 Ngoài ra còn có:
 
 ```
 10 cụm etcd
 10 API Server endpoint
-10 Scheduler
-10 Controller Manager
-10 bộ Certificate
 10 quy trình Backup
 10 quy trình Upgrade
 10 hệ thống Monitoring
 ```
 
-### 10 nhóm dùng chung một Cluster
+### 10 nhóm dùng chung một Cluster thì có thể có nhiều controlplane hơn => HA hơn
 
-```
-3 hoặc 5 máy Control Plane lớn hơn
-```
 
-Ví dụ minh họa:
-
-```
-3 × 8 vCPU  = 24 vCPU
-3 × 16 GiB  = 48 GiB RAM
-```
-
-> Kích thước thực tế phải được xác định bằng Benchmark.
 
 Tài liệu kubeadm yêu cầu tối thiểu 2 CPU cho máy Control Plane và ít nhất 2 GiB RAM trên mỗi máy. Đây chỉ là ngưỡng cài đặt tối thiểu, không phải cấu hình khuyến nghị cho môi trường sản xuất.
 
@@ -203,13 +174,11 @@ Tài liệu kubeadm yêu cầu tối thiểu 2 CPU cho máy Control Plane và í
 
 - Gom nhiều Namespace thành một Project.
 - Phân quyền theo Project.
-- Quota ở cấp Project và Namespace.
 - Giao diện quản trị người dùng và nhiều Cluster.
 - Phù hợp khi tổ chức đã sử dụng Rancher.
 
 **Hạn chế:**
 
-- Project vẫn là mô hình phẳng.
 - Không có Project cha – con.
 - Phụ thuộc vào nền tảng Rancher.
 - Chính sách chuyên sâu thường cần thêm công cụ khác.
@@ -217,19 +186,16 @@ Tài liệu kubeadm yêu cầu tối thiểu 2 CPU cho máy Control Plane và í
 ## Capsule Tenant
 
 - Gom nhiều Namespace thành một Tenant.
-- Tenant Owner tự tạo và quản lý Namespace.
 - Quota tổng trên nhiều Namespace.
 - Giới hạn Registry, StorageClass, Ingress và Node.
-- Tự động phân phối tài nguyên giữa các Namespace.
+- replicate tài nguyên giữa các Namespace dễ dàng.
 - Capsule Proxy lọc tài nguyên Cluster-scoped.
 
 **Hạn chế:**
 
 - Tất cả Tenant nằm ngang hàng.
-- Tenant Owner không quản lý chính đối tượng Tenant.
 - Không có SubTenant hoặc phân quyền theo cây tổ chức.
 
-Rancher định nghĩa cấu trúc Cluster → Project → Namespace và hỗ trợ vai trò cùng quota ở cấp Project. Capsule tập trung sâu hơn vào multi-tenancy trong một Cluster, bao gồm quota, enforcement, resource replication và proxy.
 
 ## Lời nói
 
