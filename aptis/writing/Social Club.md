@@ -12,8 +12,16 @@ Hoc
 
 Dear President,
 
-My name is Hoc, I have been a dedicated member of the club for two years. I was pleased to hear that our club will organise monthly face-to-face meetings. Therefore, I am writing this email to share my thoughts and offer some suggestions.
+My name is Hoc, I have been a dedicated member of the club for two years. I was pleased to hear that our club is planning to organise monthly face-to-face meetings. I am writing this email to share my thoughts and offer some suggestions.
 
-In my opinion, the best option would be to hold the meeting at the local community centre on the first Saturday afternoon of every month.
+In my opinion, the best option would be to hold the meetings at the local community centre on the first Saturday afternoon of every month.
 
-Firstly, Saturday afternoon would be convenient for most members because young people would not have classes, while older members would not need to travel home late. This would encourage more people to attend regularly.
+Firstly, Saturday afternoons would be convenient for most members because young people would not have classes, while the elderly would not need to travel home late. Therefore, people would be encouraged to attend regularly.
+
+Secondly, the community centre is spacious, quiet, and easy to reach. It also has comfortable seating and is close to several bus stops. As a result, both younger and older members would be able to join the meetings easily.
+
+I hope you will consider my suggestions.
+
+Best regards,
+
+Hoc.
