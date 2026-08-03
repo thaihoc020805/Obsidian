@@ -12,8 +12,7 @@ Kubernetes Namespace cung cấp một mức độ cách ly cơ bản, nhưng kh�
 
 
 
-slide 2
-# Vì sao không triển khai một Cluster cho mỗi nhóm?
+slide 2 Vì sao không triển khai một Cluster cho mỗi nhóm?
 
 ## Chi phí bị nhân bản khi tách nhiều Cluster
 
@@ -48,8 +47,7 @@ Có thể tập trung tài nguyên vào một Control Plane làm tăng HA
     
 
 
-slide 3
-# Các giải pháp hiện có
+slide 3 Các giải pháp hiện có
 
 ## Rancher Project
 
@@ -75,8 +73,7 @@ slide 3
 - Các yêu cầu như giới hạn Registry, StorageClass, Node Pool hoặc Workload configuration thường phải kết hợp thêm Admission Policy, Kubewarden, Kyverno hoặc công cụ khác.
     
 
-slide 4
-# Các giải pháp hiện có
+slide 4 Các giải pháp hiện có
 ## Capsule Tenant
 
 - Gom nhiều Namespace thành một Tenant.
@@ -103,8 +100,7 @@ slide 4
 - Không hỗ trợ phân quyền quản trị theo từng nhánh của tổ chức.
 
 
-slide 5
-# Khoảng trống: Flat Tenant không phản ánh cấu trúc tổ chức thực tế
+slide 5 Khoảng trống: Flat Tenant 
 
 ## Capsule hiện tại
 
@@ -154,11 +150,11 @@ Organization
 
 
 
-slide 6
+slide 6 **Giải pháp đề xuất: 
 
-### **Giải pháp đề xuất: HierarchyTenant**
-
-> Kubernetes Operator cung cấp mô hình HirTenant phân cấp cho Shared Cluster.
+HierarchyTenant
+ 
+ cung cấp mô hình HirTenant phân cấp cho Shared Cluster.
 
 ```
 Organization 
@@ -334,8 +330,236 @@ Mỗi Tenant hoặc Subtree chỉ được sử dụng các tài nguyên hạ t�
     
 - **StorageClass** — giới hạn loại Storage được sử dụng.
     
-- **IngressClass** — giới hạn Ingress Controller được phép sử dụng.
-    
 - **Resource Usage** — giới hạn CPU, Memory, Storage và số lượng Kubernetes Resources.
+
+
+slide 12 Security & Isolation
+
+# Security & Isolation
+
+## Hierarchical RBAC & Permission Inheritance
+
+```text
+Organization Owner
+├── Department A Owner
+│   ├── Team A Owner
+│   │   ├── Product A Owner
+│   │   └── Product B Owner
+│   └── Team B Owner
+└── Department B Owner
+```
+
+- Permission được kế thừa từ Parent Tenant xuống toàn bộ Child Tenant và Namespace bên dưới.
     
-\
+- Child Tenant có thể bổ sung User và Role riêng nhưng không được cấp quyền vượt quá Parent Tenant.
+    
+
+## Network Isolation
+
+- Mặc định chặn Network Traffic giữa các Tenant độc lập.
+    
+- Các Namespace trong cùng Product hoặc Tenant có thể giao tiếp theo Policy được cấu hình.
+    
+- Giao tiếp giữa các Subtree chỉ được phép khi có Network Policy rõ ràng.
+    
+- Network Isolation được thực thi thông qua Kubernetes NetworkPolicy và CNI Plugin.
+    
+
+
+slide 13 Security & Isolation
+## Policy Inheritance & Enforcement
+
+Policy được kế thừa qua nhiều cấp trong Tenant Tree:
+
+```text
+Organization
+└── Department A
+    └── Team A
+        └── Product A
+            ├── product-a-dev
+            ├── product-a-stg
+            └── product-a-prod
+```
+
+Ví dụ:
+
+```text
+Organization:
+- Cấm Privileged Container
+- Cấm HostPath
+
+Department A:
+- Chỉ cho phép Internal Registry
+
+Team A:
+- Bắt buộc khai báo CPU và Memory Request
+
+Product A:
+- Chỉ được sử dụng các Image đã được phê duyệt
+```
+
+Workload của Product A phải tuân thủ toàn bộ Policy từ các cấp phía trên.
+
+- Child Tenant có thể bổ sung Policy chặt hơn.
+    
+- Child Tenant không được loại bỏ hoặc nới lỏng Policy của Parent Tenant.
+    
+- Admission Webhook kiểm tra và từ chối các Resource vi phạm Policy.
+    
+
+slide 14 Tenant Self-service
+
+## Namespace Self-service
+
+```text
+Product A Owner
+├── Tạo product-a-dev
+├── Tạo product-a-stg
+└── Tạo product-a-prod
+```
+
+- Tenant Owner có thể tự tạo và quản lý Namespace trong Tenant được giao.
+    
+- Namespace mới được tự động gắn vào đúng Tenant.
+    
+- Hệ thống kiểm tra Namespace Quota, Naming Policy và Permission trước khi cho phép tạo.
+    
+- Cluster Admin không cần trực tiếp tạo và cấu hình từng Namespace.
+
+
+slide 15  Tenant Self-service
+## Resource Replication
+
+Các Resource dùng chung được tự động Replicate xuống các Namespace:
+
+```text
+Product A
+├── product-a-dev
+│   ├── NetworkPolicy
+│   ├── LimitRange
+│   └── ImagePullSecret
+├── product-a-stg
+│   ├── NetworkPolicy
+│   ├── LimitRange
+│   └── ImagePullSecret
+└── product-a-prod
+    ├── NetworkPolicy
+    ├── LimitRange
+    └── ImagePullSecret
+```
+
+Có thể Replicate:
+
+- NetworkPolicy.
+    
+- LimitRange và ResourceQuota.
+    
+- ConfigMap và Secret.
+    
+- ServiceAccount.
+    
+- Các Custom Resource được cho phép.
+    
+
+Resource có thể được khai báo ở Parent Tenant và tự động truyền xuống toàn bộ Subtree.
+
+
+slide 16  Tenant Self-service
+## Tenant-aware API Proxy
+
+API Proxy lọc các Cluster-scoped resources theo phạm vi của Tenant:
+
+```text
+Toàn Cluster:
+product-a-dev
+product-a-stg
+product-a-prod
+product-b-dev
+team-b-prod
+
+Product A Owner nhìn thấy:
+product-a-dev
+product-a-stg
+product-a-prod
+```
+
+- User chỉ nhìn thấy Namespace và Cluster-scoped resources được phép sử dụng.
+    
+- Có thể lọc Namespace, Node, StorageClass, IngressClass và PersistentVolume.
+    
+- Giảm nguy cơ làm lộ thông tin của Tenant khác.
+
+- Dễ dàng tích hợp với các UI tool
+
+
+# Slide 17 — Kiến trúc hệ thống
+
+## Nội dung trên slide
+
+### **Kiến trúc HieraTenant**
+
+```
+Người dùng / kubectl / Portal
+              │
+              ▼
+      HieraTenant API Proxy
+              │
+              ▼
+      Kubernetes API Server
+        │             │
+        │             └── Admission Webhook
+        │                    ├── Kiểm tra cây Tenant
+        │                    ├── Kiểm tra quyền
+        │                    ├── Kiểm tra quota
+        │                    └── Cưỡng chế policy
+        │
+        ▼
+  HieraTenant Controller Manager
+        ├── Tenant Tree Controller
+        ├── Namespace Controller
+        ├── RBAC Controller
+        ├── Quota Controller
+        ├── Policy Controller
+        ├── Resource Propagation Controller
+        └── Status Aggregator
+              │
+              ▼
+      Kubernetes Resources / etcd
+```
+
+### Các thành phần cần phát triển
+
+1. Custom Resource Definition.
+2. Controller Manager.
+3. Validating Admission Webhook.
+4. Mutating Admission Webhook.
+5. Tenant-aware API Proxy.
+6. Metrics và công cụ dòng lệnh tùy chọn.
+
+
+# Slide 18 — Hạn chế và phạm vi sử dụng
+
+## Nội dung trên slide
+
+### **Hạn chế**
+
+- Các Tenant vẫn dùng chung API Server, etcd và Scheduler.
+- Nếu dùng chung Worker Node, các Workload vẫn có thể dùng chung Kernel.
+- CRD và các tài nguyên Cluster-scoped vẫn thuộc toàn Cluster.
+- Proxy, Webhook và Controller trở thành thành phần quan trọng cần tính sẵn sàng cao.
+- Không phù hợp để cho người dùng hoàn toàn không tin cậy chạy mã tùy ý.
+
+### Phù hợp với
+
+- Nền tảng phát triển nội bộ.
+- Công ty có nhiều phòng ban và nhóm.
+- Trường đại học, phòng thí nghiệm.
+- Khách hàng doanh nghiệp có kiểm soát.
+
+### Không thay thế
+
+```
+vCluster
+Dedicated Cluster
+Runtime Sandbox
+```
