@@ -18,4 +18,5 @@ Dear President,
 
 My name is Hoc, i have been a dedicated member of the club for over a year. I was pleased to hear that our club is planning to organise a sports competition for younger members. I am writing this email to share my thoughts and offer some suggestions regarding the upcoming event.
 
-In my opinion, 
+In my opinion, the best option would be to include football, badminton and short-distance running as the main sports because they are popular and suitable for young participants. Members could compete individually or in small teams which would give everyone an oppoturnity to develop teamwork skills.
+
