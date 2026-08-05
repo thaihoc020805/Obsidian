@@ -19,7 +19,20 @@ Dear President,
 
 My name is Hoc, I have been a dedicated member of the club for over a year. I was a bit disappointed and concerned to hear that our club will cancel all classes next week because the instructor is going on holiday. I am writing this email to share my thoughts and offer some suggestions regarding that problem.
 
-First, I under
+First, although I understand that the instructor need time off, i don't think participants should lose the lessons which they have already paid for. In my opinion, I think the best option would be to arrange replacement classes at no additional cost. For example, members could attend extra classes later in the months when the instructor returns. As a result, this would ensure the participants receive the lessons they paid for and maintain their trust in the club. 
+
+In addition, I suggest offering participants a credit for future classes or a discount on the following month's fees. By doing this, the club could reduce members' disappointment and show that it treats them fairly.
+
+I hope you will consider my suggestions.
+
+Best regard,
+
+Hoc.
+
+
+
+
+
 
 
 
