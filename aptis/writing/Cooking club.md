@@ -38,11 +38,22 @@ Hoc.
 
 **You are a member of a food club. You received this email from the club Dear members, The club will invite a famous chef. What will the chef guide to cook? Please give us the suggestions for both young and old people.**
 
+Hi Ngan,
+
+How are you doing?
+
+Guess what? Our club is planning to invite a famous chef to guide us in cooking some dishes. I feel really excited because it could be a great opportunity to learn more about food. I think we should invite Tuan Tu Do, who has experience teaching people of all ages. What do you think? Perhaps we can discuss it over lunch
+
+Catch you later,
+Hoc
+
+
+
 Dear President,
 
 My name is Hoc, I have been a dedicated member of the club for over a year. I am writing this email to share my thoughts and offer some suggestions regarding the upcoming event. 
 
-I was pleased to hear that our club will invite a famous chef to teach membes how to cook. In my opinion, the best option would be to invite Tuan Tu Do, who is a respected local chef and has extensive knowledge of both modern and tranditional dishes. He could share valuable knowledge and has experience guiding people of all ages.
+I was pleased to hear that our club will invite a famous chef to teach membes how to cook some interesting dishes. In my opinion, the best option would be to invite Tuan Tu Do, who is a respected local chef and has extensive knowledge of both modern and tranditional dishes. He could share valuable knowledge and has experience guiding people of all ages.
 
 Regarding the food that the chef will prepare, I suggest making simple but healthy and delicious dishes that everyone can cook at home. It is more practical than preparing difficult ones. The chef could show younger how to make quick and nutritious snacks, while teach older members how to prepare healthy traditional dishes.
 
@@ -57,8 +68,5 @@ Hoc
 
 
 
-Hi Ngan,
-
-How are you doing?
-
-Guess 
+guide someone in doing something
+teach someone how to do something
