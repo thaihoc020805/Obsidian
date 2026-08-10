@@ -1,6 +1,6 @@
 {
   "trashOption": "local",
-  "spellcheck": false,
+  "spellcheck": true,
   "readableLineLength": false,
   "newFileLocation": "root",
   "attachmentFolderPath": "./assets"
