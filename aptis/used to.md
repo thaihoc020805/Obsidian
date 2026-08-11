@@ -1,4 +1,4 @@
- Đúng, **used to** thường gặp trong **3 cấu trúc**, nhìn giống nhau nhưng nghĩa khác hẳn:
+Đúng, **used to** thường gặp trong **3 cấu trúc**, nhìn giống nhau nhưng nghĩa khác hẳn:
 
 ## 1. `used to + V` — từng làm gì trong quá khứ
 
