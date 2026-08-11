@@ -1,9 +1,9 @@
-|Quality|Hệ số giá so với Normal|
-|---|--:|
-|Normal|**×1.00**|
-|Silver ⭐|**×1.25**|
-|Gold ⭐⭐|**×1.50**|
-|Iridium ⭐⭐⭐⭐|**×2.00**|
+| Quality      | Hệ số giá so với Normal |
+| ------------ | ----------------------: |
+| Normal       |               **×1.00** |
+| Silver ⭐     |               **×1.25** |
+| Gold ⭐⭐      |               **×1.50** |
+| Iridium ⭐⭐⭐⭐ |               **×2.00** |
 
 
 truffle oil
