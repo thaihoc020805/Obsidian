@@ -18,7 +18,7 @@ My name is Hoc, I have been a dedicated member of the club for two years. I was 
 
 In my opinion, the best option would be to invite Le Minh Man, who is a respected local critic and has extensive knowledge of both modern and classic films. He could share valuable knowledge and has experience talking with audience of all ages
 
-Regarding the topic, i suggest discussing how differences between classic and modern films and examining how films influence society. Older members could share their opinions about classic films, while younger ones could discuss recent movies and new technology.
+Regarding the topic, i suggest discussing the differences between classic and modern films and examining how films influence society. Older members could share their opinions about classic films, while younger ones could discuss recent movies and new technology.
 
 In addition, it would be a good idea to organise a short question-and-answer session. By doing this, the club could encourage everyone to participate and learn from one another.
 
