@@ -1,4 +1,4 @@
-teabcd# Software Requirements Specification
+# Software Requirements Specification
 
 ## Zalo Bot Management System — Phase 1 / Base Platform
 
