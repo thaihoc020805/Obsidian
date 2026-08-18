@@ -134,7 +134,6 @@ tsc
 ```
 
 đều chạy được, vì `/usr/local/bin` nằm trong $PATH.
-"nói chung tôi mô tả lỗi kĩ rồi mà , test làm gì nữa, cứ cố code sửa đi, xong t"
 Có thể hình dung:
 
 ```
@@ -193,7 +192,6 @@ npx cowsay hello
 ```
 
 `npx` về bản chất nói:
-
 > “Tìm executable tên này. Nếu chưa có package phù hợp, lấy package đó về tạm/cache rồi chạy binary của nó.”
 
 Flow đại khái:
@@ -696,6 +694,8 @@ node_modules/
 ├── ...
 └── ...
 ```
+
+chạy app lên tôi mới test được chứ 
 
 Node app:
 
