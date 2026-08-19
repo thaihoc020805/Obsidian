@@ -1,0 +1,12 @@
+- **take a walk** = đi dạo
+- **go for a walk** = đi dạo
+- **go walking** = đi bộ/đi dạo
+- **stroll** = đi dạo thong thả
+- **take a stroll** = đi dạo nhẹ nhàng
+
+- **take a walk** = đi dạo
+- **take a break** = nghỉ một látplay
+- **take a shower** = tắm
+- **take a rest** = nghỉ ngơi
+- **take a look** = nhìn/xem thử
+- **take a seat** = ngồi xuống

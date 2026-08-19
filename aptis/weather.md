@@ -1,0 +1,12 @@
+- **Sunny** = nắng
+- **Cloudy** = nhiều mây
+- **Rainy** = có mưa
+- **Windy** = nhiều gió
+- **Stormy** = có bão/giông
+- **Snowy** = có tuyết
+- **Foggy** = có sương mù
+- **Hot** = nóng
+- **Warm** = ấm
+- **Cool** = mát
+- **Cold** = lạnh
+- **Humid** = ẩm
