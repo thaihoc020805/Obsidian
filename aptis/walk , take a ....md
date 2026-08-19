@@ -5,7 +5,7 @@
 - **take a stroll** = đi dạo nhẹ nhàng
 
 - **take a walk** = đi dạo
-- **take a break** = nghỉ một látplay
+- **take a break** = nghỉ một lát
 - **take a shower** = tắm
 - **take a rest** = nghỉ ngơi
 - **take a look** = nhìn/xem thử
