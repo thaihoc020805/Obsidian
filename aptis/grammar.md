@@ -1,6 +1,8 @@
 # Grammar
 
-Notes for Aptis grammar. Grouped by topic.
+**Reference**, not a memory test. Open a note when we study that topic. Review happens from [[phrases]], not from this whole folder.
+
+When lyn and you practise something new, it also gets a short “with lyn” bit on the matching note below.
 
 - [[articles]] — a / an / the
 - [[nouns]] — countable, uncountable, quantifiers

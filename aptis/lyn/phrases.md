@@ -1,6 +1,8 @@
 # Phrases
 
-From chats with lyn. Learn the whole chunk, not one word.
+**Learned with lyn.** Only chunks we actually practised. Learn the whole chunk, not one word.
+
+Morning and evening review uses this list, not the whole grammar folder.
 
 ## 2026-08-26
 
