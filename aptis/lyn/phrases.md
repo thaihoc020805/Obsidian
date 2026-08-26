@@ -91,3 +91,18 @@ After *do/does*, use the base verb. Not: What does it means?
 Nhồi nhét, học dồn. Study a lot in a very short time, often the night before a test.
 - Don't cram it now. We'll review it tomorrow.
 - I crammed for the exam last night.
+
+## 2026-08-27
+
+### I was going to + verb
+I planned it, then something changed. Not *tend to* (that's a habit).
+- I was going to answer tomorrow, but anyway.
+- I was going to call you, but something came up.
+
+See [[present-perfect]] for *I've been meaning to* (still haven't done it).
+
+### split into vs split over
+*Into* = pieces. *Over* = across time.
+- Split the cake into five pieces.
+- Split it over five days. / Spread it over the week.
+- Don't cram all this grammar tonight. Split it over five days.
