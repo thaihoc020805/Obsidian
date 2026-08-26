@@ -29,6 +29,8 @@ I wanted to do this for a while, but I still haven't. (tôi định... từ lâu
 - I've been meaning to talk to you about tomorrow's meeting.
 - I've been meaning to hang out with you.
 
+See [[present-perfect]].
+
 ### talk to someone about something
 Not: discuss with you about
 - Can I talk to you about something?
@@ -64,6 +66,8 @@ có việc đột xuất. Not: something came up with me / an unexpected trouble
 Not true now.
 - If I had more time, I would spend it all learning languages.
 
+See [[conditionals]].
+
 ### spend time / spend it + -ing
 - I spend a lot of time watching films.
 
@@ -73,5 +77,5 @@ tra cứu — a fact, Google, a dictionary
 
 ### look into something
 tìm hiểu / xem xét — a problem, takes time
-See also [[look + sth]].
+See also [[look]].
 - I'll look into it.

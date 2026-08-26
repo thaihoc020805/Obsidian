@@ -1,8 +1,3 @@
-dùng **on** với các nền tảng/phương tiện truyền thông:
+# Moved
 
-- **on social media**
-- **on Facebook**
-- **on Instagram**
-- **on the internet**
-- **on television**
-- **on the radio**
+This note is now in [[prepositions]].
