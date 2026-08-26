@@ -9,6 +9,7 @@ Morning and evening review uses this list, not the whole grammar folder.
 ### make a mistake
 Not: have a mistake
 - If I make a mistake, just tell me.
+- I've made a mistake in this email.
 
 ### I'm + -ing
 Not: I typing
@@ -81,3 +82,12 @@ tra cứu — a fact, Google, a dictionary
 tìm hiểu / xem xét — a problem, takes time
 See also [[look]].
 - I'll look into it.
+
+### What does it mean?
+After *do/does*, use the base verb. Not: What does it means?
+- What does this word mean? I'll look it up.
+
+### cram
+Nhồi nhét, học dồn. Study a lot in a very short time, often the night before a test.
+- Don't cram it now. We'll review it tomorrow.
+- I crammed for the exam last night.
