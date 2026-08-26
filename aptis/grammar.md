@@ -1,16 +1,26 @@
 # Grammar
 
-**Reference**, not a memory test. Open a note when we study that topic. Review happens from [[phrases]], not from this whole folder.
+This folder is **reference**, not a memory test.
 
-When lyn and you practise something new, it also gets a short “with lyn” bit on the matching note below.
+Start with [[grammar/quick-reference|Quick reference]] for rules that actually appeared in practice. Open the detailed notes below only when you need more explanation.
 
+- [[grammar/quick-reference|Quick reference]] — concise rules from real mistakes/practice
 - [[articles]] — a / an / the
 - [[nouns]] — countable, uncountable, quantifiers
-- [[prepositions]] — work at/for/in, on social media, adj + to/for, time of day
+- [[prepositions]] — common preposition patterns
 - [[look]] — look at / for / after / into / up
-- [[verb-patterns]] — consider, experience + V-ing, used to, remind, take a …
-- [[linking]] — so / so that, even when / even if
-- [[conditionals]] — if / unless; If I had…, I would…
+- [[verb-patterns]] — verb + infinitive / V-ing and common chunks
+- [[linking]] — linking words and contrast
+- [[conditionals]] — if / unless / unreal conditionals
 - [[present-perfect]] — present perfect vs past simple
-- [[subject-verb]] — chủ ngữ–động từ
-- [[weather]] — thời tiết
+- [[subject-verb]] — subject–verb agreement
+- [[weather]] — weather vocabulary and patterns
+
+## How to use grammar notes
+
+When a grammar point comes up during practice:
+1. add a **short version** to [[grammar/quick-reference|Quick reference]];
+2. add detail to a topic note only if needed;
+3. if it is a repeated writing problem, also add it to [[lin/mistakes]].
+
+Do not review this entire folder. Review the short lists instead.
