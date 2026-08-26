@@ -1,21 +1,14 @@
 # Grammar
 
-Notes for Aptis grammar. One topic per note.
+Notes for Aptis grammar. Grouped by topic.
 
-- [[S,V]]
-- [[a an the]]
-- [[adj + to,for]]
-- [[consider]]
-- [[countable uncountable]]
-- [[even when if]]
-- [[experience ving]]
-- [[look + sth]]
-- [[noon afternoon evening]]
-- [[on + social]]
-- [[quantifier]]
-- [[remind someone]]
-- [[so, so that]]
-- [[used to]]
-- [[walk , take a ...]]
-- [[weather]]
-- [[work + in at for]]
+- [[articles]] — a / an / the
+- [[nouns]] — countable, uncountable, quantifiers
+- [[prepositions]] — work at/for/in, on social media, adj + to/for, time of day
+- [[look]] — look at / for / after / into / up
+- [[verb-patterns]] — consider, experience + V-ing, used to, remind, take a …
+- [[linking]] — so / so that, even when / even if
+- [[conditionals]] — if / unless; If I had…, I would…
+- [[present-perfect]] — present perfect vs past simple
+- [[subject-verb]] — chủ ngữ–động từ
+- [[weather]] — thời tiết
