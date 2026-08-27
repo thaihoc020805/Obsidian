@@ -14,6 +14,7 @@ Not: have a mistake
 ### I'm + -ing
 Not: I typing
 - When I'm typing with you, please correct me.
+- I'm waiting for the bus.
 
 ### one more thing / also
 Not: an extra info (`information` has no `an`)
@@ -39,8 +40,9 @@ Not: discuss with you about
 - Can I talk to you about something?
 
 ### discuss something with someone
-No `about`. A bit more formal.
-- We need to discuss the budget with the team.
+No `about`. *Discuss* already means *talk about*.
+- I want to discuss the budget with you.
+- I need to discuss the tuition with my mom.
 
 ### tomorrow's meeting
 Not: the tomorrow's meeting
@@ -96,13 +98,21 @@ Nhồi nhét, học dồn. Study a lot in a very short time, often the night bef
 
 ### I was going to + verb
 I planned it, then something changed. Not *tend to* (that's a habit).
-- I was going to answer tomorrow, but anyway.
+- I was going to sleep around 11 or 12 last night, but I ended up sleeping at 2 a.m.
 - I was going to call you, but something came up.
 
 See [[present-perfect]] for *I've been meaning to* (still haven't done it).
+
+### ended up + -ing
+Rốt cuộc lại + V-ing. What really happened.
+- I ended up sleeping at 2 a.m.
 
 ### split into vs split over
 *Into* = pieces. *Over* = across time.
 - Split the cake into five pieces.
 - Split it over five days. / Spread it over the week.
 - Don't cram all this grammar tonight. Split it over five days.
+
+### tuition / tuition fees / school fees
+Học phí. Don't leave *học phí* in an English sentence.
+- I need to discuss the tuition with my mom.
