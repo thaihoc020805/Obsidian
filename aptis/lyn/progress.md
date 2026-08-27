@@ -1,6 +1,6 @@
 # Progress
 
-Last update: 2026-08-26
+Last update: 2026-08-27
 
 ## Level
 
@@ -26,6 +26,7 @@ Natural English for speaking and writing. Aptis next month (around September 202
 
 - little words around the verb (`discuss with you about`, `if you are convenient`)
 - uncountable nouns (`information`, `trouble`)
+- articles with countable nouns (`watching movie` → `a movie`; `a wrong file` → `the wrong file`)
 - `pause` vs `cancel`
 - exact meaning of casual phrases, not only the gist
 
@@ -40,3 +41,13 @@ Natural English for speaking and writing. Aptis next month (around September 202
 ### 2026-08-26
 
 Diagnostic. Covered: `I've been meaning to`, `really like`, `if you're free`, `something came up`, `If I had... I would...`, `look it up` vs `look into it`.
+
+Quiz 1 closed (~11–12/15). Evening: make a mistake, something came up, cram / spread over.
+
+### 2026-08-27
+
+Morning: discuss the tuition with my mom (no *about*). *Was going to* vs *I've been meaning to*. *Talk to X about Y* and *discuss X with Y*.
+
+Afternoon: *tuition for* (not *of*). *Term* = học kỳ.
+
+Evening production: `I was going to study at 8, but I ended up watching a movie instead` (needed *a*). `I've already talked to my dad about the tuition for next term`. `I'm waiting for the bus right now`.

@@ -159,6 +159,7 @@ Xem thêm [[nouns]].
 
 ❌ *I have car.* → ✅ *I have a car.*
 ❌ *She is teacher.* → ✅ *She is a teacher.*
+❌ *watching movie* → ✅ *watching a movie* (một bộ) / *watching movies* (thói quen). Practised 2026-08-27. See [[phrases]].
 ❌ *The technology is changing our lives.* (nói chung) → ✅ *Technology is changing our lives.*
 ✅ *The technology used in this machine is new.* (cụ thể)
 ❌ *an advice* → ✅ *some advice* / *a piece of advice*
