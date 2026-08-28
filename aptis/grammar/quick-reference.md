@@ -9,6 +9,12 @@ Use **times** after numbers greater than one; use singular **week** in the patte
 - ✅ three times a week
 - ❌ three time a weeks
 
+### adverb of frequency + main verb
+With ordinary verbs, frequency adverbs such as **often, usually, always, rarely, never** usually go **before the main verb**.
+- ✅ He often takes the bus to work.
+- Pattern: `S + frequency adverb + V + ...`
+- With **he / she / it** in the present simple, add **-s / -es** to the verb: `take → takes`.
+
 ### for the past + period
 Use for a situation that started in the past and continues until now.
 - ✅ I haven't exercised regularly for the past three years.
@@ -43,6 +49,24 @@ Common chunks where **take** does not mean “cầm/lấy”.
 - take a break
 - take a shower
 - take a look
+
+### take + transport
+Use **take + the/a + transport** to mean travel by that vehicle.
+- take the bus
+- take a taxi
+- take the train
+- ✅ He often takes the bus to work.
+
+### responsible / in charge / responsibility
+All three can relate to responsibility, but the focus is different.
+- **be responsible for + N/V-ing** = have responsibility for something.
+  - I'm responsible for managing the server.
+- **be in charge of + N/V-ing** = be the person managing or leading something.
+  - I'm in charge of the DevOps team.
+- **take responsibility for + N/V-ing** = accept responsibility, often for an action, problem, or result.
+  - I take responsibility for the mistake.
+- ❌ take responsible for
+- ✅ take responsibility for
 
 ## Adjectives
 
