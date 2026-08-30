@@ -102,6 +102,7 @@ I planned it, then something changed. Not *tend to* (that's a habit).
 - I was going to sleep around 11 or 12 last night, but I ended up sleeping at 2 a.m.
 - I was going to study at 8, but I ended up watching a movie instead.
 - I was going to call you, but something came up.
+- I was going to sleep around 11 or 12, but I ended up going to bed at 1 a.m. Well, it was more like 3 a.m.
 
 See [[present-perfect]] for *I've been meaning to* (still haven't done it).
 
@@ -109,6 +110,7 @@ See [[present-perfect]] for *I've been meaning to* (still haven't done it).
 Rốt cuộc lại + V-ing. What really happened.
 - I ended up sleeping at 2 a.m.
 - I ended up watching a movie instead.
+- I ended up going to bed at 1 a.m.
 
 ### split into vs split over
 *Into* = pieces. *Over* = across time.
@@ -131,3 +133,14 @@ Học kỳ. Aptis likes *term*. *Semester* is also ok.
 - I ended up watching a movie instead.
 - I watch movies on the weekend.
 Not: watching movie
+
+## 2026-08-30
+
+### it's more like / well, it was more like
+You say one number, then you correct it. *Like* = kiểu như, not thích. Comma after *Well*.
+- I ended up going to bed at 1 a.m. Well, it was more like 3 a.m.
+- It's more like the whole past year, or two.
+
+### go to bed vs sleep
+*Go to bed* = vào giường. *Sleep* / *fall asleep* = ngủ.
+- I went to bed at 1. I fell asleep at 3.
