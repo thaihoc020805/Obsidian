@@ -144,3 +144,24 @@ You say one number, then you correct it. *Like* = kiểu như, not thích. Comma
 ### go to bed vs sleep
 *Go to bed* = vào giường. *Sleep* / *fall asleep* = ngủ.
 - I went to bed at 1. I fell asleep at 3.
+
+## 2026-08-31
+
+### prefer A to B
+*To*, not *than*. *Prefer* = thích hơn. *Like* = thích (no choice needed).
+- I prefer tea to coffee.
+- I like tea. (you can like tea and coffee)
+
+### kind of
+Hơi / kiểu như. Softens the sentence. Not *a kind of* (một loại).
+- I'm kind of tired.
+- It's kind of like that.
+
+### Have you ... yet? / I've already ...
+Aptis: *yet* with *have* + V3, not *Did you ... yet?*
+- Have you paid the tuition yet?
+- Yes, I've already paid it.
+
+### screw up / I screwed up
+Informal: make a bad mistake. Exam: *I made a mistake.*
+- I screwed up. I sent the wrong file.
