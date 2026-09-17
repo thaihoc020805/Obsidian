@@ -178,7 +178,7 @@ Slide này có 4 ý. **Nói theo 4 ý nhưng không đọc nguyên văn.**
 
 > “Trong lĩnh vực **chính trị – xã hội**, bài trình bày bốn nội dung chính.
 > 
-> **Thứ nhất**, theo lý luận của môn học, giai cấp công nhân thực hiện vai trò tiên phong chính trị **thông qua Đảng Cộng sản Việt Nam**, nhằm góp phần củng cố vai trò lãnh đạo và bảo vệ những thành quả cách mạng.
+> **Thứ nhất**, giai cấp công nhân thực hiện vai trò tiên phong chính trị **thông qua Đảng Cộng sản Việt Nam**, nhằm góp phần củng cố vai trò lãnh đạo và bảo vệ những thành quả cách mạng.
 > 
 > **Thứ hai** là củng cố khối đại đoàn kết toàn dân tộc, trong đó nền tảng được nhấn mạnh là **liên minh công nhân – nông dân – trí thức**. Đây cũng là sự phát triển từ mối quan hệ công – nông mà chúng ta đã phân tích ở Chương 1.
 > 
